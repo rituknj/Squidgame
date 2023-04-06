@@ -69,6 +69,7 @@ function Navbar() {
             <li className="m-r-2 c-p   m-q-b-d-n">SWAP</li>
             <li className="m-r-2 c-p   m-q-b-d-n">PEDIGREE</li>
             <li className="m-r-2 c-p   m-q-b-d-n">TEAM</li>
+            <li className="m-r-2 c-p   m-q-b-d-n">TEAM-sections</li>
             {/* <li className="m-r-2 c-p   m-q-b-d-n">
               <Dropdown>
                 <Dropdown.Toggle
