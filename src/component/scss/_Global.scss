@@ -35,8 +35,8 @@
     }
 }
 body{
-    height: 70vh !important;
-    background: #7ba2e5 !important;
+    // height: 70vh !important;
+    background-color: #7ba2e5 !important;
 }
 
 // --------------responsive----------------
@@ -81,10 +81,21 @@ html {
     }
 }
 
+.l-h-24{
+line-height: 24px !important;
+}
+
+.fo-na{
+    font-family: "Montserrat-Black" !important;
+}
+
+.ba-co{
+    background-color: #7ba2e5 !important;
+}
 //------------container-kws------------------
 
 .container-kws {
-    width: 80% !important;
+    width: 90% !important;
     margin: auto !important;
 }
 
@@ -1058,7 +1069,9 @@ html {
 .f-s-1 {
     font-size: 1rem !important;
 }
-
+.f-s-1_3 {
+    font-size: 1.3rem !important;
+}
 .f-s-1_5 {
     font-size: 1.5rem !important;
 }
@@ -1112,7 +1125,9 @@ html {
 .f-w-400 {
     font-weight: 400 !important;
 }
-
+.f-w-500{
+    font-weight: 500 !important;
+}
 .f-w-600 {
     font-weight: 600 !important;
 }
@@ -1935,7 +1950,7 @@ a {
 }
 
 .c-b{
-    color: black !important;
+    color: #1E3469 !important;
 }
 
 //----background-color--------

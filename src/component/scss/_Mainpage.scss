@@ -1,0 +1,29 @@
+.bu-sec{
+    background: none;
+    border: none;
+    margin-left: 1rem;
+    padding: 10px;
+    font-family: "Montserrat-Black" !important;
+}
+.button-pri-no{
+    background: none;
+    border: none;
+    padding: 20px 20px;
+    font-family: "Montserrat-Black" !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+}
+// .sec-col{
+//     margin: 140px 40px;
+// }
+// .main-img{
+//     padding-top: 250px;
+// }
+.mint{
+    background: url(../Image/mint_bg.79b50114.png)  50% no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 10%;
+}

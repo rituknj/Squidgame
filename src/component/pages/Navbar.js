@@ -5,9 +5,9 @@ import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Dropdown from "react-bootstrap/Dropdown";
 import { AiOutlineMenu } from "react-icons/ai";
-import {FaTelegramPlane , FaTiktok} from "react-icons/fa";
-import {BsTwitter, BsYoutube, BsGithub} from "react-icons/bs";
-import {SiGitbook} from "react-icons/si"
+import { FaTelegramPlane, FaTiktok } from "react-icons/fa";
+import { BsTwitter, BsYoutube, BsGithub } from "react-icons/bs";
+import { SiGitbook } from "react-icons/si";
 import Modal from "react-bootstrap/Modal";
 import meta from "../Image/meta.png";
 import walletconnect from "../Svg/walletconnect.svg";
@@ -51,25 +51,28 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <>
-      <div className="  navbar12  d-f a-i-c j-c-s-b p-y-1 b-d">
-        <div className="">
+    <div className="container-kws">
+      <div className="  navbar12  d-f a-i-c j-c-s-b p-y-1 b-d ">
+        <div className="p-t-1">
           <ul className="l-s-t-n d-f a-i-c ">
-            <li className="m-r-2">
+            <li className="m-r-1">
               <img
                 src={logo}
                 alt=""
                 className="logo animate__animated animate__rubberBand"
               />
             </li>
+          </ul>
+        </div>
+        <div className="p-t-1">
+          <ul className="l-s-t-n d-f a-i-c list-nav">
+            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">DOSA BOMB </li>
+            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">NFTS</li>
+            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TOKONOMICS</li>
+            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SWAP</li>
+            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">PEDIGREE</li>
+            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TEAM</li>
 
-            <li className="m-r-2 c-p   m-q-b-d-n">DOSA BOMB </li>
-            <li className="m-r-2 c-p   m-q-b-d-n">NFTS</li>
-            <li className="m-r-2 c-p   m-q-b-d-n">TOKONOMICS</li>
-            <li className="m-r-2 c-p   m-q-b-d-n">SWAP</li>
-            <li className="m-r-2 c-p   m-q-b-d-n">PEDIGREE</li>
-            <li className="m-r-2 c-p   m-q-b-d-n">TEAM</li>
-            <li className="m-r-2 c-p   m-q-b-d-n">TEAM-sections</li>
             {/* <li className="m-r-2 c-p   m-q-b-d-n">
               <Dropdown>
                 <Dropdown.Toggle
@@ -95,33 +98,25 @@ function Navbar() {
         </div>
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
-            <li className="m-l-2 c-p   m-q-b-d-n"><FaTelegramPlane/></li>
-            <li className="m-l-2 c-p   m-q-b-d-n"><BsTwitter/></li>
-            <li className="m-l-2 c-p   m-q-b-d-n"><BsYoutube/></li>
-            <li className="m-l-2 c-p   m-q-b-d-n"><BsGithub/></li>
-            <li className="m-l-2 c-p   m-q-b-d-n"><SiGitbook/></li>
-            <li className="m-l-2 c-p   m-q-b-d-n"><FaTiktok/></li>
-            <li className="m-l-2 c-p   m-q-b-d-n">
-              {/* <Dropdown>
-                <Dropdown.Toggle
-                  variant="success"
-                  id="dropdown-basic"
-                  className="b-c-t b-n c-i"
-                >
-                  Dropdown Button
-                </Dropdown.Toggle>
-
-                <Dropdown.Menu className="pa-1">
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown> */}
-             
+            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-w">
+              <FaTelegramPlane />
+            </li>
+            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n">
+              <BsTwitter />
+            </li>
+            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+              <BsYoutube />
+            </li>
+            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+              <BsGithub />
+            </li>
+            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+              <SiGitbook />
+            </li>
+            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+              <FaTiktok />
+            </li>
+            <li className="m-l-2 c-p  ">
               <button className="button-pri">SWAP $DOSA</button>
             </li>
             {/* <li className="m-l-2 c-pq ">
@@ -129,8 +124,8 @@ function Navbar() {
                 {theme === "dark-theme" ? "Light mode" : "Dark mode"}
               </span>
             </li> */}
-          
-            <li className="m-l-2 c-pq ">
+
+            <li className="m-l-2  ">
               {" "}
               <button
                 // variant="primary"
@@ -142,7 +137,10 @@ function Navbar() {
             </li>
             <li className="m-l-2 c-p   m-q-a-d-n ">
               {" "}
-              <Button onClick={handleShow} className=" b-c-t c-i b-n pa-0">
+              <Button
+                onClick={handleShow}
+                className=" b-c-t c-i b-n pa-0 f-s-2 "
+              >
                 <AiOutlineMenu />
               </Button>
             </li>
@@ -166,10 +164,13 @@ function Navbar() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
-            <li className="m-r-1 m-t-1 c-p">dummy</li>
-            <li className="m-r-1 m-t-1 c-p">dummy</li>
-            <li className="m-r-1 m-t-1 c-p">dummy</li>
-            <li className="m-r-1 m-t-1 c-p">
+            <li className="m-r-1 m-t-1 c-p fo-na c-b">DOSA BOMB</li>
+            <li className="m-r-1 m-t-1 c-p fo-na c-b">NFTS</li>
+            <li className="m-r-1 m-t-1 c-p fo-na c-b">TOKONOMICS</li>
+            <li className="m-r-1 m-t-1 c-p fo-na c-b">SWAP</li>
+            <li className="m-r-1 m-t-1 c-p fo-na c-b">PEDIGREE</li>
+            <li className="m-r-1 m-t-1 c-p fo-na c-b">TEAM</li>
+            {/* <li className="m-r-1 m-t-1 c-p">
               <Dropdown>
                 <Dropdown.Toggle
                   variant="success"
@@ -188,12 +189,36 @@ function Navbar() {
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
+            </li> */}
+          </ul>
+          <ul className="l-s-t-n d-f j-c-s-b m-t-2">
+            <li>
+              <FaTelegramPlane />
+            </li>
+            <li>
+              {" "}
+              <BsTwitter />
+            </li>
+            <li>
+              {" "}
+              <BsYoutube />
+            </li>
+            <li>
+              {" "}
+              <BsGithub />
+            </li>
+            <li>
+              <SiGitbook />
+            </li>
+            <li>
+              {" "}
+              <FaTiktok />
             </li>
           </ul>
         </Offcanvas.Body>
       </Offcanvas>
 
-      <Modal show={show2} onHide={handleClose2} className="">
+      {/* <Modal show={show2} onHide={handleClose2} className="">
         <div className="">
           <Modal.Header closeButton>
             <Modal.Title className="t-a-c m-a c-i">
@@ -208,8 +233,8 @@ function Navbar() {
             </div>
           </Modal.Body>
         </div>
-      </Modal>
-    </>
+      </Modal> */}
+    </div>
   );
 }
 

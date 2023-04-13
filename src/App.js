@@ -10,7 +10,7 @@ import Main from "./component/pages/Main";
 
 function App() {
   return (
-    <div className="container-kws">
+    <div className="">
       <Router>
         <Navbar />
         <Routes>
