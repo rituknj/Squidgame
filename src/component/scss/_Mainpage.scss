@@ -27,3 +27,118 @@
     align-items: flex-end;
     padding: 0 10%;
 }
+.mint-box{
+    background: #212f53 0 0 no-repeat padding-box;
+    border-radius: 55px;
+    padding: 36px 40px;
+    margin: 160px 0 120px;
+    width: 550px;
+    flex-shrink: 0;
+
+    &__price{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 33px;
+    border-bottom: 3px solid #f2f5f4;
+    }
+
+    &__content-title{
+        display: flex;
+        flex-direction: column;
+    }
+    &__child{
+        text-align: right;
+    }
+    &__title{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: normal normal 600 21px/25px Montserrat;
+    }
+    &__title-img{
+        margin: 20px 0 50px !important;
+    }
+    &__amount{
+        width: 100%;
+    display: flex;
+    background: #85aaeb 0 0 no-repeat padding-box;
+    border-radius: 95px;
+    margin-bottom: 40px;
+    }
+    &__amount-sp{
+        width: 62px;
+    text-align: center;
+    font: normal normal 900 23px/60px MontserratBlack;
+    flex-shrink: 0;
+    cursor: pointer;
+    }
+    &__amount-input{
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        font: normal normal 900 25px/60px MontserratBlack;
+        color: #2e4883;
+    }
+    &__price-bottom{
+        padding-top: 20px;
+        border-top: 3px solid #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__price-tit{
+        font: normal normal 700 15px/19px MontserratBold;
+    color: #f2f5f4;
+    }
+    &__bu-mint{
+        background: #85aaeb 0 0 no-repeat padding-box;
+    border-radius: 31px;
+    font: normal normal 700 16px/60px MontserratBold;
+    margin-bottom: 14.5px;
+    margin-top: 23px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    cursor: no-drop !important;
+    }
+    &__bo-para{
+        font: normal normal 700 15px/19px MontserratBold;
+    color: #f2f5f4;
+    }
+}
+.page{
+    background: #212f53 !important;
+    padding: 140px 10%;
+
+    &__pass-page{
+    max-width: 1120px !important; 
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    &__pass-info{
+        display: flex;
+    flex-direction: column;
+    }
+
+    &__pass-img{
+        
+    }
+    
+
+}
+.apply-button{
+    width: 174px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7ba2e5 0 0 no-repeat padding-box;
+    border-radius: 24px;
+    font: normal normal 800 14px/18px MontserratBold;
+    border: none;
+}
