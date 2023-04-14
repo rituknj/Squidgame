@@ -92,8 +92,14 @@ line-height: 24px !important;
 .ba-co{
     background-color: #7ba2e5 !important;
 }
+.f-co{
+    color: #1E3469 !important;
+}
 //------------container-kws------------------
-
+.container-kws-new{
+    width: 70% !important;
+    margin: auto !important;
+}
 .container-kws {
     width: 90% !important;
     margin: auto !important;
@@ -652,6 +658,12 @@ line-height: 24px !important;
 .pa-7 {
     padding: 7rem !important;
 }
+.pa-7_5 {
+    padding: 7.5rem !important;
+}
+.pa-9 {
+    padding: 9rem !important;
+}
 
 
 // ------------padding-bottom---------------
@@ -900,6 +912,9 @@ line-height: 24px !important;
 
 .p-t-7 {
     padding-top: 7rem !important;
+}
+.p-t-9 {
+    padding-top: 9rem !important;
 }
 
 // ------------padding-left-right---------------
