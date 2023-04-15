@@ -216,3 +216,30 @@
     opacity: 1;
     }
 }
+
+.section-nft{
+
+ &__head-2{
+    font: normal normal 700 24px/32px MontserratBold;
+    color: #1e3469;
+    margin: 20px 0 28px;
+ }
+ &__backimg{
+    display: flex;
+    max-width: 1823px;
+    width: 100%;
+    padding: 0 30px;
+    min-width: 473px;
+ }
+
+}
+.chainlink{
+
+    &__head{
+        font-weight: 600;
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    }
+}

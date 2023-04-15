@@ -10,7 +10,11 @@ import dosacrat from "../Image/dosacract_mint_logo.png";
 import passimg from "../Image/bomb_apply.png";
 import sliderimg from "../Image/carousel.f356061b.png";
 import dosabombimg from "../Image/dosa_bomb.png";
-
+import nftcollectionimg from "../Image/dosacrat_logo.png";
+import nftbackimg from "../Image/nft_groupage.png";
+import dosanftimg from "../Image/why_nfts.png";
+import chainlogo from "../Image/chainlink_logo.png";
+import chainlogo2 from "../Image/chainlink_image.png";
 
 export default function Main() {
   return (
@@ -276,34 +280,133 @@ export default function Main() {
               </div>
             </div> */}
             <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div className="f-r">
-            <h2 className="text-wrap-box__per ">4%</h2>
-                <p className="text-wrap-box__con">MAINTENANCE AND MARKETING</p></div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div>
-            <h2 className="text-wrap-box__per">3%</h2>
-                <p className="text-wrap-box__con">DOSA BOMB</p></div>
-            </div>
-
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="f-r">
+                  <h2 className="text-wrap-box__per ">4%</h2>
+                  <p className="text-wrap-box__con">
+                    MAINTENANCE AND MARKETING
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div>
+                  <h2 className="text-wrap-box__per">3%</h2>
+                  <p className="text-wrap-box__con">DOSA BOMB</p>
+                </div>
+              </div>
             </div>
             <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="bsc-calcu m-t-5">
+                  <div className="bsc-calcu__buttons-container">
+                    <div className="bsc-calcu__active"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="p-t-9">
+        <div className="container-kws-new pa-4">
+          <img src={nftcollectionimg} alt="" />
+          <div className="section-nft ">
+            <h4 className="section-nft__head-2 f-w-500">
+              10.000 NFT COLLECTION TO DOMINATE THE DOSA BOMB
+            </h4>
+            <p className="f-w-500 ">
+              Dosacrats are the Dosa Protocol’s NFT line. Each Dosacrat is
+              unique art, generated randomly by computer, in profile picture
+              style, in the form of a Mastiff character.
+            </p>
+            <br />
+            <p className="f-w-500 ">
+              Become a member of the “Dosacratic Parliament” to gain influence
+              over the Dosa Bomb. While being a Fuse entitles a holder to their
+              vote, Dosacrats boost the number of votes a Fuse gets. Welcome to
+              the Dosacracy.
+            </p>
+          </div>
+        </div>
+        <div className="">
+          <img src={nftbackimg} alt="" className="w-100" />
+        </div>
+      </section>
+      <section>
+        <div className="pass p-t-7 p-b-7">
+          <div className="container-kws-new">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="pa-3">
+                  <h1 className="f-s-3">
+                    WHY <span className="f-w-900">DOSA NFT</span>
+                  </h1>
+                  <div>
+                    <p className="f-s-1 f-w-500">
+                      Each Dosacrat NFT grants the Fuse to one extra vote in the
+                      ongoing Dosa Bomb.
+                    </p>
+                    <br />
+                    <p className="f-s-1 f-w-500">
+                      The more Dosacrats you hold, the more votes you get!
+                    </p>
+                    <br />
+                    <p className="f-s-1 f-w-500">
+                      For example, if a wallet holds 100,000 $Dosa tokens, and 3
+                      Dosacrat NFTs, that holder is entitled to 4 votes in the
+                      Dosa Bomb. If a wallet holds 400,000 $Dosa tokens, and 1
+                      Dosacrat NFT, that holder is entitled to 2 votes in the
+                      Dosa Bomb.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <img src={dosanftimg} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="p-t-7">
+        <div className="container-kws-new">
+          <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="bsc-calcu m-t-5">
-              <div className="bsc-calcu__buttons-container">
-              <div className="bsc-calcu__active">
-
+            <div className="pa-4">
+              <div>
+                <h1 className="chainlink__head">
+                  <span className="m-r-0_5">
+                    <img src={chainlogo} alt="" />
+                  </span>
+                  CHAINLINK
+                </h1>
+                <h1 className="f-w-900 f-s-3">INTEGRATION</h1>
               </div>
-
-              </div>
-
+              <div className="m-t-1_5">
+                <p className="f-s-1 f-w-500">
+                  For each Dosacrats NFT minting request, Chainlink VRF
+                  generates one or more random values and cryptographic proof of
+                  how those values were determined.
+                </p>
+                <br />
+                <p className="f-s-1 f-w-500">
+                  The proof is published and verified on-chain before any
+                  consuming applications can use it.
+                </p>
+                <br />
+                <p className="f-s-1 f-w-500">
+                  This process ensures that results cannot be tampered with or
+                  manipulated by any single entity including oracle operators,
+                  miners, users, scripts or smart contract developers.
+                </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-
-</div>
-
+              <div>
+                <img src={chainlogo2} alt="" />
+              </div>
             </div>
           </div>
         </div>
