@@ -13,7 +13,7 @@ import meta from "../Image/meta.png";
 import walletconnect from "../Svg/walletconnect.svg";
 import "animate.css";
 
-import logo from "../Image/logo_menu.png";
+import logo from "../Image/logosqd.png";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -69,7 +69,7 @@ function Navbar() {
             <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">DOSA BOMB </li>
             <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">NFTS</li>
             <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TOKONOMICS</li>
-            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SWAP</li>
+            {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SWAP</li> */}
             <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">PEDIGREE</li>
             <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TEAM</li>
 
@@ -107,16 +107,16 @@ function Navbar() {
             <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
               <BsYoutube />
             </li>
-            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+            {/* <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
               <BsGithub />
-            </li>
-            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+            </li> */}
+            {/* <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
               <SiGitbook />
-            </li>
-            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+            </li> */}
+            {/* <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
               <FaTiktok />
-            </li>
-            <li className="m-l-2 c-p  ">
+            </li> */}
+            <li className="m-l-2 c-p m-q-a-d-n_600 ">
               <button className="button-pri">SWAP $DOSA</button>
             </li>
             {/* <li className="m-l-2 c-pq ">
@@ -125,7 +125,7 @@ function Navbar() {
               </span>
             </li> */}
 
-            <li className="m-l-2  ">
+            <li className="m-l-2  m-q-a-d-n_600">
               {" "}
               <button
                 // variant="primary"
@@ -164,12 +164,12 @@ function Navbar() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
-            <li className="m-r-1 m-t-1 c-p fo-na c-b">DOSA BOMB</li>
-            <li className="m-r-1 m-t-1 c-p fo-na c-b">NFTS</li>
-            <li className="m-r-1 m-t-1 c-p fo-na c-b">TOKONOMICS</li>
-            <li className="m-r-1 m-t-1 c-p fo-na c-b">SWAP</li>
-            <li className="m-r-1 m-t-1 c-p fo-na c-b">PEDIGREE</li>
-            <li className="m-r-1 m-t-1 c-p fo-na c-b">TEAM</li>
+            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">DOSA BOMB</li>
+            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">NFTS</li>
+            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">TOKONOMICS</li>
+            {/* <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">SWAP</li> */}
+            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">PEDIGREE</li>
+            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">TEAM</li>
             {/* <li className="m-r-1 m-t-1 c-p">
               <Dropdown>
                 <Dropdown.Toggle
@@ -193,27 +193,38 @@ function Navbar() {
           </ul>
           <ul className="l-s-t-n d-f j-c-s-b m-t-2">
             <li>
-              <FaTelegramPlane />
+              <FaTelegramPlane className="f-s-2" />
             </li>
             <li>
               {" "}
-              <BsTwitter />
+              <BsTwitter className="f-s-2"/>
             </li>
             <li>
               {" "}
-              <BsYoutube />
+              <BsYoutube className="f-s-2"/>
             </li>
-            <li>
-              {" "}
-              <BsGithub />
-            </li>
-            <li>
-              <SiGitbook />
-            </li>
-            <li>
-              {" "}
-              <FaTiktok />
-            </li>
+         
+          </ul>
+          <ul className="d-f j-c-s-b l-s-t-n m-t-3">
+          <li>
+          <button
+                // variant="primary"
+                onClick={handleShow2}
+                className=" button-pri"
+              >
+                SWAP $DOSA
+              </button>
+          </li>
+          <li>
+          <button
+                // variant="primary"
+                onClick={handleShow2}
+                className=" button-pri"
+              >
+                CONNECT
+              </button>
+          </li>
+
           </ul>
         </Offcanvas.Body>
       </Offcanvas>

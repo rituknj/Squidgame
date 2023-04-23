@@ -36,7 +36,7 @@
 }
 body{
     // height: 70vh !important;
-    background-color: #7ba2e5 !important;
+    background-color: #FFEAEA !important;
 }
 
 // --------------responsive----------------
@@ -84,6 +84,9 @@ html {
 .l-h-24{
 line-height: 24px !important;
 }
+.l-h-2{
+    line-height: 2rem !important;
+}
 
 .fo-na{
     font-family: "Montserrat-Black" !important;
@@ -110,11 +113,19 @@ line-height: 24px !important;
         width: 85% !important;
         margin: auto !important;
     }
+    .container-kws-new{
+        width: 80% !important;
+        margin: auto !important;
+    }
 }
 
 
 @media screen and (max-width: 900px) {
     .container-kws {
+        width: 90% !important;
+        margin: auto !important;
+    }
+    .container-kws-new{
         width: 90% !important;
         margin: auto !important;
     }
@@ -1084,6 +1095,9 @@ line-height: 24px !important;
 .f-s-1 {
     font-size: 1rem !important;
 }
+.f-s-1_2 {
+    font-size: 1.2rem !important;
+}
 .f-s-1_3 {
     font-size: 1.3rem !important;
 }
@@ -1412,7 +1426,9 @@ line-height: 24px !important;
 }
 
 //------------width----in--%------
-
+.w-20 {
+    width: 20% !important;
+}
 .w-25 {
     width: 25% !important;
 }
@@ -1965,7 +1981,7 @@ a {
 }
 
 .c-b{
-    color: #1E3469 !important;
+    color: #D7195F !important;
 }
 
 //----background-color--------

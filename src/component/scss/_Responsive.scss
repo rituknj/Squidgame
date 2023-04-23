@@ -1,11 +1,97 @@
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
     .m-q-b-d-n{
         display: none !important;
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1400px) {
     .m-q-a-d-n{
         display: none !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .m-q-a-d-n_600{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 600px) {
+    .m-q-b-d-n_600{
+        display: none !important;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    .m-q-a-d-n_1200{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .m-q-b-d-n_1200{
+        display: none;
+    }
+    .banner-mobileRight{
+        padding-bottom: 0;
+    max-width: 100%;
+    align-items: center !important;
+    text-align: center !important;
+
+    &__h1{
+        font: normal normal 900 33px/40px MontserratBlack;
+    letter-spacing: 0;
+    color: #1e3469;
+    margin: 26px 0;
+    // max-width: 431px;
+    }
+    &__btn{
+        display: flex;
+        align-items: flex-start;
+    }
+    &__link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 347px;
+    }
+    &__link-r{
+        display: flex;
+        align-items: center;
+        font: normal normal 800 15px/19px MontserratBold;
+        cursor: pointer;
+        color: #1e3469;
+        margin-left: 30px;
+    }
+    &__link-icons{
+        width: 52px;
+        height: 52px;
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        margin-right: 8px;
+        background: #1e3469;
+        border-radius: 50%;
+    }
+    &__pinklinks{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    }
+    .button-pri-mobile{
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        font: normal normal 800 15px/19px MontserratBold;
+        text-transform: uppercase;
+        height: 52px;
+        width: 167px;
+        justify-content: center;
+        margin-bottom: 10px;
+        background: #1e3469 0 0 no-repeat padding-box;
+        border-radius: 24px;
     }
 }
