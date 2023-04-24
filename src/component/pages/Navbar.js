@@ -56,11 +56,12 @@ function Navbar() {
         <div className="p-t-1">
           <ul className="l-s-t-n d-f a-i-c ">
             <li className="m-r-1">
+            <a href="/" target="">
               <img
                 src={logo}
                 alt=""
                 className="logo animate__animated animate__rubberBand"
-              />
+              /></a>
             </li>
           </ul>
         </div>
@@ -68,7 +69,7 @@ function Navbar() {
           <ul className="l-s-t-n d-f a-i-c list-nav">
             {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">DOSA BOMB </li> */}
             <li ><a href="#aboutsquid" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">About Squid </a></li>
-            <li  ><a href="#tokenomics" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TOKONOMICS</a></li>
+            <li  ><a href="#tokenomics" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Tokenomics</a></li>
             {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SWAP</li> */}
             <li ><a href="#utility" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Utility</a></li>
             <li ><a href="#partners" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Partners</a></li>
@@ -165,12 +166,12 @@ function Navbar() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
-            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">DOSA BOMB</li>
-            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">NFTS</li>
-            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">TOKONOMICS</li>
+            <li ><a href="#aboutsquid" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">About Squid</a></li>
+            <li ><a href="#tokenomics" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Tokenomics</a></li>
+            <li ><a href="#utility" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Utility</a></li>
             {/* <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">SWAP</li> */}
-            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">PEDIGREE</li>
-            <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">TEAM</li>
+            <li ><a href="#partners" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Partners</a></li>
+            <li ><a href="#roadmap" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Roadmap</a></li>
             {/* <li className="m-r-1 m-t-1 c-p">
               <Dropdown>
                 <Dropdown.Toggle

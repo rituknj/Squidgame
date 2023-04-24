@@ -14,9 +14,9 @@ export default function Footer() {
               <div className="col-log-4 col-md-4 col-sm-12 col-12">
                 <div className="row">
                   <div className="footer__icons c-w">
-                    <FaTelegramPlane className="c-w"/>
-                    <BsTwitter className="c-w"/>
-                    <BsYoutube className="c-w"/>
+                    <FaTelegramPlane className="c-w f-s-1_5"/>
+                    <BsTwitter className="c-w f-s-1_5"/>
+                    <BsYoutube className="c-w f-s-1_5"/>
                     {/* <BsGithub />
                     <SiGitbook />
                     <FaTiktok /> */}
@@ -42,7 +42,7 @@ export default function Footer() {
               <div className="col-log-4 col-md-4 col-sm-12 col-12"></div>
               <div className="col-log-4 col-md-4 col-sm-12 col-12">
                 <div className="">
-                  <img src={footerlogo} alt="" />
+                  <img src={footerlogo} alt="" className="w-75"/>
                 </div>
                 <div className="m-t-1 m-b-4 c-w">
                 <span>© 2023, Squid., All rights reserved.</span>

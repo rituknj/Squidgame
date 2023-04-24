@@ -285,21 +285,21 @@ export default function Main() {
             trending within the crypto industry to make SquidGME the next
             blue-chip cryptocurrency!
           </p>
-          <div className="m-t-2 f-s-1_5 f-w-600">
+          <div className="m-t-2 f-s-1_5 f-w-600 c-b">
             Contract Audit + Renounced Ownership + Pinksale Antibot:
           </div>
           <div className="m-t-1 f-w-600">
             <p>
-              <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b " />
               Contract Audited by Cyberscope
             </p>
             <p>
-              <AiOutlineAim className="m-r-0_5 f-s-1_3" />
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b" />
               Antibot: Extensive launch protection-protocols by Pinksale
               Antibot.
             </p>
             <p>
-              <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b" />
               Renounced Contract: Token Contract to be Renounced on Launch,
               officially setting the token and its’ functions unchangeable.
               (LBank, Bitmart, Mexc, Gate io, CEX Addresses Whitelisted before
@@ -480,7 +480,7 @@ export default function Main() {
             </p>
             <div className="row">
               <div>
-                <h2 className="t-a-c">
+                <h2 className="t-a-c c-b">
                   TOTAL SUPPLY <span className="f-w-400">100,000 </span>$GME{" "}
                   <span className="f-w-400">Tokens</span>
                 </h2>
@@ -489,28 +489,28 @@ export default function Main() {
             <div className="row m-t-2">
               <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div className="  t-a-c b-r-10 pa-2 b-r-c m-b-1">
-                  <h4 className="t-a-c ">Token Allocation</h4>
-                  <p className="f-w-500">Burned: 50.075% (50,075)</p>
-                  <p className="f-w-500">Presale: 31.05% (31,050)</p>
-                  <p className="f-w-500">Liquidity: 17.875% (17,875)</p>
-                  <p className="f-w-500">Promotional Airdrops: 1% (1,000)</p>
+                  <h4 className="t-a-c  c-b">Token Allocation</h4>
+                  <p className="f-w-500 c-b">Burned: 50.075% (50,075)</p>
+                  <p className="f-w-500 c-b">Presale: 31.05% (31,050)</p>
+                  <p className="f-w-500 c-b">Liquidity: 17.875% (17,875)</p>
+                  <p className="f-w-500 c-b">Promotional Airdrops: 1% (1,000)</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div className="  t-a-c b-r-10 pa-2 b-r-c m-b-1">
-                  <h4 className="t-a-c ">Air Drop</h4>
-                  <p className="f-w-500">1000 $GME Tokens Total</p>
-                  <p className="f-w-500">
+                  <h4 className="t-a-c  c-b">Air Drop</h4>
+                  <p className="f-w-500 c-b">1000 $GME Tokens Total</p>
+                  <p className="f-w-500 c-b">
                     5 Tokens Per Airdrop/Person = Estimated $10+ Value on Launch
                   </p>
-                  <p className="f-w-500">200 Airdrops Total</p>
+                  <p className="f-w-500 c-b">200 Airdrops Total</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div className="  t-a-c b-r-10 pa-2 b-r-c min-h-12_5 m-b-1">
-                  <h4 className="t-a-c ">7/7 Transaction Tax</h4>
-                  <p className="f-w-500">4% Holder Reflection Dividends</p>
-                  <p className="f-w-500">
+                  <h4 className="t-a-c  c-b">7/7 Transaction Tax</h4>
+                  <p className="f-w-500 c-b">4% Holder Reflection Dividends</p>
+                  <p className="f-w-500 c-b">
                     3% Marketing/Development/CEX Listings
                   </p>
                 </div>
