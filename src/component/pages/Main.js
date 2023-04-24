@@ -13,7 +13,7 @@ import sliderimg from "../Image/carousel.f356061b.png";
 import dosabombimg from "../Image/Logo(2).png";
 import nftcollectionimg from "../Image/bg-remove-loge-side.png";
 import nftbackimg from "../Image/nft_groupage.png";
-import dosanftimg from "../Image/why_nfts.png";
+import dosanftimg from "../Image/Inprogress.png";
 import chainlogo from "../Image/chainlink_logo.png";
 import chainlogo2 from "../Image/chainlink_image.png";
 import playimg from "../Image/icon_play.png";
@@ -28,6 +28,7 @@ import muunshots from "../Image/muunshots.webp";
 import coinsniper from "../Image/coinsniper.png";
 import coinhunt from "../Image/coinhunt.png";
 import Roadmap from "./Roadmap";
+import { AiOutlineAim } from "react-icons/ai";
 
 export default function Main() {
   const [show, setShow] = useState(false);
@@ -60,9 +61,9 @@ export default function Main() {
                 </h1>
               </div>
               <p className="f-s-1_5 c-b f-w-500 l-h-24 mobile-pa">
-                Dosa is a Web3 protocol that enables holders of the $Dosa token,
-                to vote for how the Dosa treasury wallet is spent, in a function
-                known as the “Dosa Bomb”.
+                SquidGME $GME is a Decentralized Web3 Artificial Intelligence
+                Project creating open-access to AI voice modules using speech
+                synthesis artificial intelligence and deep learning.
               </p>
 
               <div className="row p-t-4 p-b-2">
@@ -153,9 +154,9 @@ export default function Main() {
                 </h1>
               </div>
               <p className="f-s-1_5 c-b f-w-500 l-h-24">
-                Dosa is a Web3 protocol that enables holders of the $Dosa token,
-                to vote for how the Dosa treasury wallet is spent, in a function
-                known as the “Dosa Bomb”.
+                SquidGME $GME is a Decentralized Web3 Artificial Intelligence
+                Project creating open-access to AI voice modules using speech
+                synthesis artificial intelligence and deep learning.
               </p>
               <div className="p-t-2">
                 {/* <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -286,6 +287,27 @@ export default function Main() {
             trending within the crypto industry to make SquidGME the next
             blue-chip cryptocurrency!
           </p>
+          <div className="m-t-2 f-s-1_5 f-w-600">
+            Contract Audit + Renounced Ownership + Pinksale Antibot:
+          </div>
+          <div className="m-t-1 f-w-600">
+            <p>
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+              Contract Audited by Cyberscope
+            </p>
+            <p>
+              <AiOutlineAim className="m-r-0_5 f-s-1_3" />
+              Antibot: Extensive launch protection-protocols by Pinksale
+              Antibot.
+            </p>
+            <p>
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+              Renounced Contract: Token Contract to be Renounced on Launch,
+              officially setting the token and its’ functions unchangeable.
+              (LBank, Bitmart, Mexc, Gate io, CEX Addresses Whitelisted before
+              Renounce)
+            </p>
+          </div>
         </div>
       </section>
       <section className="p-t-9 p-b-7">
@@ -343,20 +365,22 @@ export default function Main() {
         <div className="container-kws-new ">
           <img src={nftcollectionimg} alt="" className="max-w-100" />
           <div className="section-nft ">
-            <h4 className="section-nft__head-2 f-w-500 c-b">
-              10.000 NFT COLLECTION TO DOMINATE THE SquidGME
-            </h4>
+            <h4 className="section-nft__head-2 f-w-900 c-b ">Utility</h4>
             <p className="f-w-500 c-b">
-              Dosacrats are the Dosa Protocol’s NFT line. Each Dosacrat is
-              unique art, generated randomly by computer, in profile picture
-              style, in the form of a Mastiff character.
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 " /> SquidGME AI Voice
+              Bot: Simple and unlimited usage to the public with the ability to
+              generate organic viral marketing with its’ fun use-case technology
+              that’ll be shared/spread around groups/communities. (With Upcoming
+              Future Developments like Customized Self Voice-Synthesizing which
+              will cost $GME Coins)
             </p>
             <br />
             <p className="f-w-500 c-b">
-              Become a member of the “Dosacratic Parliament” to gain influence
-              over the Dosa Bomb. While being a Fuse entitles a holder to their
-              vote, Dosacrats boost the number of votes a Fuse gets. Welcome to
-              the Dosacracy.
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 " /> Holder Dividends:
+              For every transaction, 4% of the Tokens are automatically
+              distributed to the holders. Using a weighted system, the more
+              tokens you hold, the more you get which also compounds the longer
+              you hold!
             </p>
           </div>
         </div>
@@ -370,25 +394,27 @@ export default function Main() {
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="">
-                  <h1 className="f-s-3 c-b">
-                    WHY <span className="f-w-900">Squid NFT</span>
-                  </h1>
+                  <h4 className="f-s-2 c-b">
+                    Contract Audit + Renounced Ownership + Pinksale Antibot{" "}
+                  </h4>
                   <div>
                     <p className="f-s-1 f-w-500 c-b">
-                      Each Dosacrat NFT grants the Fuse to one extra vote in the
-                      ongoing Dosa Bomb.
+                      <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+                      Contract Audited by Cyberscope
                     </p>
                     <br />
                     <p className="f-s-1 f-w-500 c-b">
-                      The more Dosacrats you hold, the more votes you get!
+                      <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+                      Antibot: Extensive launch protection-protocols by Pinksale
+                      Antibot.
                     </p>
                     <br />
                     <p className="f-s-1 f-w-500 c-b">
-                      For example, if a wallet holds 100,000 $Dosa tokens, and 3
-                      Dosacrat NFTs, that holder is entitled to 4 votes in the
-                      Dosa Bomb. If a wallet holds 400,000 $Dosa tokens, and 1
-                      Dosacrat NFT, that holder is entitled to 2 votes in the
-                      Dosa Bomb.
+                      <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+                      Renounced Contract: Token Contract to be Renounced on
+                      Launch, officially setting the token and its’ functions
+                      unchangeable. (LBank, Bitmart, Mexc, Gate io, CEX
+                      Addresses Whitelisted before Renounce)
                     </p>
                   </div>
                 </div>
@@ -446,31 +472,52 @@ export default function Main() {
       <section>
         <div className="pass-bo p-t-7 p-b-7">
           <div className="container-kws-new ">
-            <h1 className="c-b">SquidGME TEAM</h1>
-            <p className="m-b-2 f-w-500 c-b">
-              The “Dosa Team” are anonymous and pseudonymous developers and
-              computer programmers. The Dosa Protocol is decentralized, and
-              bigger than any particular individual or team.
+            <h1 className="c-b t-a-c m-b-2">SquidGME Tokenomics</h1>
+            <p className="m-b-2 f-w-500 c-b f-s-1_2 t-a-c">
+              Low supply with only 100,000 tokens to ever be created and over
+              50% initially burned. Mathematically calculated initial liquidity
+              pool to diluted market cap ratio for breeze and solid movement. No
+              unnecessary dilution with no staking, no team/marketing tokens,
+              and no private sale.
             </p>
-            <p className="m-b-2 f-w-500 c-b">
-              The only function of the $Dosa token, or Dosa NFTs, is to enable
-              holders to vote in the Dosa Bomb. Holding $Dosa should not be
-              considered an investment. No statements made in this document, nor
-              any Dosa communication channels, nor by any Dosa “community
-              members” or holders, should be considered financial advice. $Dosa
-              holders should not expect any “return on investment,” nor that the
-              “Dosa team” will work to provide value to their holdings.
-            </p>
-            <p className="f-w-500 c-b">
-              A crypto project being listed as a “Contender” in the Dosa Bomb
-              should not be considered financial advice. Dosa has no
-              decision-making capacity or authority in any of the “Contenders”
-              in the Dosa Bomb. Dosa does not vet the Contenders’ teams,
-              contracts, missions, or communities. The winner of the Dosa Bomb
-              is chosen solely by which Contender receives the most votes, and
-              it is not to be taken as an indication that the winner is a “good
-              investment.”
-            </p>
+            <div className="row">
+              <div>
+                <h2 className="t-a-c">
+                  TOTAL SUPPLY <span className="f-w-400">100,000 </span>$GME{" "}
+                  <span className="f-w-400">Tokens</span>
+                </h2>
+              </div>
+            </div>
+            <div className="row m-t-2">
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                <div className="  t-a-c b-r-10 pa-2 b-r-c m-b-1">
+                  <h4 className="t-a-c ">Token Allocation</h4>
+                  <p className="f-w-500">Burned: 50.075% (50,075)</p>
+                  <p className="f-w-500">Presale: 31.05% (31,050)</p>
+                  <p className="f-w-500">Liquidity: 17.875% (17,875)</p>
+                  <p className="f-w-500">Promotional Airdrops: 1% (1,000)</p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                <div className="  t-a-c b-r-10 pa-2 b-r-c m-b-1">
+                  <h4 className="t-a-c ">Air Drop</h4>
+                  <p className="f-w-500">1000 $GME Tokens Total</p>
+                  <p className="f-w-500">
+                    5 Tokens Per Airdrop/Person = Estimated $10+ Value on Launch
+                  </p>
+                  <p className="f-w-500">200 Airdrops Total</p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                <div className="  t-a-c b-r-10 pa-2 b-r-c min-h-12_5 m-b-1">
+                  <h4 className="t-a-c ">7/7 Transaction Tax</h4>
+                  <p className="f-w-500">4% Holder Reflection Dividends</p>
+                  <p className="f-w-500">
+                    3% Marketing/Development/CEX Listings
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -519,7 +566,7 @@ export default function Main() {
         </div>
       </section>
       <section>
-        <Roadmap/>
+        <Roadmap />
       </section>
     </>
   );
