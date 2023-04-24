@@ -8,6 +8,7 @@ import Form1 from "./component/pages/Form1";
 import Page404 from "./component/pages/Page404";
 import Main from "./component/pages/Main";
 import Footer from "./component/pages/Footer";
+import Roadmap from "./component/pages/Roadmap";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Navbar />
         <Routes>
         <Route path="/" element={<Main/>} />
-        
+        {/* <Route path="/roadmap" element = {<Roadmap/>} /> */}
           {/* <Route path="/" element={<Home />} />
           <Route path="/form" element={<Form1 />} />
           <Route path="*" element={<Page404 />} /> */}

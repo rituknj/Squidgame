@@ -1,7 +1,7 @@
 .bu-sec{
     background: none;
     border: none;
-    margin-left: 1rem;
+    // margin-left: 1rem;
     padding: 10px;
     font-family: "Montserrat-Black" !important;
 }
@@ -20,12 +20,13 @@
 //     padding-top: 250px;
 // }
 .mint{
-    background: url(../Image/mint_bg.79b50114.png)  50% no-repeat ;
+    background: url(../Image/Banner-Twitter.jpg)  50% no-repeat ;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding: 0 10%;
+    height: 500px;
 }
 .mint-box{
     background: #212f53 0 0 no-repeat padding-box;
@@ -109,7 +110,7 @@
     }
 }
 .pass{
-    background: #FFEAEA !important;
+    background: #D7195F !important;
 }
 .pass-bo{
     background:#FFEAEA !important;
@@ -262,8 +263,23 @@
     align-items: center;
     border: 1px solid #D7195F;
     text-decoration: none;
+    background: transparent;
 }
 
+.modal-content {
+    background: none !important;
+    border: none !important;
+}
+.modal-header {
+    border-bottom: none !important;
+    display: flex !important;
+    justify-content: end !important;
+}
+.listing-box{
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
 // ANIMATION
 
 @keyframes Carousel_bgFlow__2HNU2 {
@@ -275,3 +291,17 @@
 }
 }
 
+@media screen and (max-width: 575px) {
+    .pinksalebu{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .listing-box{
+        margin-bottom: 1rem ;
+    }
+}

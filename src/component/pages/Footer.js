@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
       <section>
-        <div className="pass">
+        <div className="">
           <div className="container-kws-new p-t-7 p-b-7">
             <div className="row">
               <div className="col-log-4 col-md-4 col-sm-12 col-12">
@@ -24,7 +24,7 @@ export default function Footer() {
                   <div className="row m-l-1">
                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                       <div className="m-t-2 l-h-2 f-s-1_2 f-w-500">
-                        <p>Buy DOSA</p>
+                        <p>Buy SquidGME</p>
                         <p>News</p>
                         <p>Pedigree</p>
                       </div>
@@ -32,7 +32,7 @@ export default function Footer() {
                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                       <div className="m-t-2 l-h-2 f-s-1_2 f-w-500">
                         <p>Nfts</p>
-                        <p>Dosa Bomb</p>
+                        <p>SquidGME</p>
                         <p>Opensea</p>
                       </div>
                     </div>
@@ -45,7 +45,7 @@ export default function Footer() {
                   <img src={footerlogo} alt="" />
                 </div>
                 <div className="m-t-1 m-b-4">
-                <span>© 2022, Dosa., All rights reserved.</span>
+                <span>© 2023, Squid., All rights reserved.</span>
                 </div>
               </div>
             </div>
