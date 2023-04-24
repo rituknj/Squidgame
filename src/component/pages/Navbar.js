@@ -66,12 +66,13 @@ function Navbar() {
         </div>
         <div className="p-t-1">
           <ul className="l-s-t-n d-f a-i-c list-nav">
-            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">DOSA BOMB </li>
-            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">NFTS</li>
-            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TOKONOMICS</li>
+            {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">DOSA BOMB </li> */}
+            <li ><a href="#aboutsquid" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">About Squid </a></li>
+            <li  ><a href="#tokenomics" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TOKONOMICS</a></li>
             {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SWAP</li> */}
-            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">PEDIGREE</li>
-            <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">TEAM</li>
+            <li ><a href="#utility" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Utility</a></li>
+            <li ><a href="#partners" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Partners</a></li>
+            <li ><a href="#roadmap" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Roadmap</a></li>
 
             {/* <li className="m-r-2 c-p   m-q-b-d-n">
               <Dropdown>
@@ -98,7 +99,7 @@ function Navbar() {
         </div>
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
-            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-w">
+            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n ">
               <FaTelegramPlane />
             </li>
             <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n">
@@ -117,7 +118,7 @@ function Navbar() {
               <FaTiktok />
             </li> */}
             <li className="m-l-2 c-p m-q-a-d-n_600 ">
-              <button className="button-pri">SWAP $DOSA</button>
+              <button className="button-pri"> $SquidGME</button>
             </li>
             {/* <li className="m-l-2 c-pq ">
               <span className="" onClick={() => toggleTheme()}>

@@ -4,7 +4,7 @@ export default function Roadmap() {
   return (
     <>
 
-<div class="container-fluid blue-bg">
+<div class="container-fluid blue-bg" id='roadmap'>
   <div class="container">
     <h2 class="pb-3 pt-3 t-a-c">Roadmap</h2>
     {/* <!--first section--> */}

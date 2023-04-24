@@ -221,7 +221,7 @@ export default function Main() {
 
 </section>  */}
 
-      <section className="pass-bo">
+      {/* <section className="pass-bo">
         <div className="container-kws-new">
           <div className="row p-t-9 p-b-7">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -244,9 +244,7 @@ export default function Main() {
                   Well here's your chance, apply to be a contender in the Dosa
                   Bomb today!
                 </p>
-                {/* <div>
-                  <button className="button-pri m-t-2">APPLY NOW</button>
-                </div> */}
+                
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -256,11 +254,11 @@ export default function Main() {
             </div>
           </div>
         </div>
-        {/* <div className="carasoul"></div> */}
-      </section>
-      <section className="mint m-t-7"></section>
+      
+      </section> */}
+      <section className="mint m-t-7" ></section>
 
-      <section className="pass-bo">
+      <section className="pass-bo" id="aboutsquid">
         <div className="container-kws-new p-t-9 p-b-7">
           <h1 className="f-s-3 c-b">
             WHAT IS <span className="f-w-900 ">SquidGME </span>
@@ -361,7 +359,7 @@ export default function Main() {
         </div>
       </section>
 
-      <section className="p-t-9">
+      <section className="p-t-9" id="utility">
         <div className="container-kws-new ">
           <img src={nftcollectionimg} alt="" className="max-w-100" />
           <div className="section-nft ">
@@ -426,7 +424,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className="p-t-7">
+      {/* <section className="p-t-7">
         <div className="container-kws-new">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -467,9 +465,9 @@ export default function Main() {
             </div>
           </div>
         </div>
-        {/* <div className="carasoul "></div> */}
-      </section>
-      <section>
+       
+      </section> */}
+      <section id="tokenomics">
         <div className="pass-bo p-t-7 p-b-7">
           <div className="container-kws-new ">
             <h1 className="c-b t-a-c m-b-2">SquidGME Tokenomics</h1>
@@ -521,7 +519,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section>
+      <section id="partners">
         <div className=" p-t-7 p-b-7 pass">
           <div className="container-kws-new">
             <h1 className="c-w">Partners</h1>
