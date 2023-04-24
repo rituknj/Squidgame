@@ -100,13 +100,13 @@ function Navbar() {
         </div>
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
-            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n ">
+            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b">
               <FaTelegramPlane />
             </li>
-            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n">
+            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b">
               <BsTwitter />
             </li>
-            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
+            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n c-b">
               <BsYoutube />
             </li>
             {/* <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
