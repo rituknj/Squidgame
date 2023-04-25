@@ -125,9 +125,9 @@ export default function Main() {
                   </a>
                 </div>
               </div> */}
-              <div className="f-s-1_3 c-b  f-w-600 m-t-1_5">
+              {/* <p className="f-s-1_3 c-b  f-w-600 m-t-1_5">
                 CA:0xbC93891CF9aBC3F8124B2eCE3727E208C4236C58
-              </div>
+              </p> */}
             </div>
           </Grid>
           <Grid item sm={12} xs={12} md={12} lg={6} xl={6}>
@@ -210,9 +210,9 @@ export default function Main() {
                   </a>
                 </div>
               </div>
-              <div className="f-s-1_3 c-b  f-w-600 m-t-1_5">
+              {/* <div className="f-s-1_3 c-b  f-w-600 m-t-1_5">
                 CA:0xbC93891CF9aBC3F8124B2eCE3727E208C4236C58
-              </div>
+              </div> */}
             </div>
           </Grid>
         </Grid>
@@ -256,7 +256,7 @@ export default function Main() {
         </div>
       
       </section> */}
-      <section className="mint m-t-7" ></section>
+      <section className="mint m-t-7"></section>
 
       <section className="pass-bo" id="aboutsquid">
         <div className="container-kws-new p-t-9 p-b-7">
@@ -285,20 +285,20 @@ export default function Main() {
             trending within the crypto industry to make SquidGME the next
             blue-chip cryptocurrency!
           </p>
-          <div className="m-t-2 f-s-1_5 f-w-600 c-b">
+          <div className="m-t-2 f-s-1_5 f-w-600 c-b contract-audit">
             Contract Audit + Renounced Ownership + Pinksale Antibot:
           </div>
-          <div className="m-t-1 f-w-600">
-            <p>
+          <div className="m-t-1 f-w-600 c-b">
+            <p className="c-b">
               <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b " />
               Contract Audited by Cyberscope
             </p>
-            <p>
+            <p className="c-b">
               <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b" />
               Antibot: Extensive launch protection-protocols by Pinksale
               Antibot.
             </p>
-            <p>
+            <p className="c-b">
               <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b" />
               Renounced Contract: Token Contract to be Renounced on Launch,
               officially setting the token and its’ functions unchangeable.
@@ -493,7 +493,9 @@ export default function Main() {
                   <p className="f-w-500 c-b">Burned: 50.075% (50,075)</p>
                   <p className="f-w-500 c-b">Presale: 31.05% (31,050)</p>
                   <p className="f-w-500 c-b">Liquidity: 17.875% (17,875)</p>
-                  <p className="f-w-500 c-b">Promotional Airdrops: 1% (1,000)</p>
+                  <p className="f-w-500 c-b">
+                    Promotional Airdrops: 1% (1,000)
+                  </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6 col-12">

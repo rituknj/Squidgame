@@ -56,24 +56,51 @@ function Navbar() {
         <div className="p-t-1">
           <ul className="l-s-t-n d-f a-i-c ">
             <li className="m-r-1">
-            <a href="/" target="">
-              <img
-                src={logo}
-                alt=""
-                className="logo animate__animated animate__rubberBand"
-              /></a>
+              <a href="/" target="">
+                <img
+                  src={logo}
+                  alt=""
+                  className="logo animate__animated animate__rubberBand"
+                />
+              </a>
             </li>
           </ul>
         </div>
         <div className="p-t-1">
           <ul className="l-s-t-n d-f a-i-c list-nav">
             {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">DOSA BOMB </li> */}
-            <li ><a href="#aboutsquid" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">About Squid </a></li>
-            <li  ><a href="#tokenomics" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Tokenomics</a></li>
+            <li>
+              <a
+                href="#aboutsquid"
+                className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b"
+              >
+                About Squid{" "}
+              </a>
+            </li>
+            <li>
+              <a
+                href="#tokenomics"
+                className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b"
+              >
+                Tokenomics
+              </a>
+            </li>
             {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SWAP</li> */}
-            <li ><a href="#utility" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Utility</a></li>
-            <li ><a href="#partners" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Partners</a></li>
-            <li ><a href="#roadmap" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">Roadmap</a></li>
+            <li>
+              <a href="#utility" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">
+                Utility
+              </a>
+            </li>
+            <li>
+              <a href="#partners" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">
+                Partners
+              </a>
+            </li>
+            <li>
+              <a href="#roadmap" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">
+                Roadmap
+              </a>
+            </li>
 
             {/* <li className="m-r-2 c-p   m-q-b-d-n">
               <Dropdown>
@@ -101,13 +128,13 @@ function Navbar() {
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
             <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b">
-              <FaTelegramPlane />
+              <FaTelegramPlane className="c-b icons-nav" />
             </li>
             <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b">
-              <BsTwitter />
+              <BsTwitter className="c-b icons-nav" />
             </li>
             <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n c-b">
-              <BsYoutube />
+              <BsYoutube className="c-b icons-nav" />
             </li>
             {/* <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
               <BsGithub />
@@ -166,12 +193,47 @@ function Navbar() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
-            <li ><a href="#aboutsquid" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">About Squid</a></li>
-            <li ><a href="#tokenomics" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Tokenomics</a></li>
-            <li ><a href="#utility" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Utility</a></li>
+            <li>
+              <a
+                href="#aboutsquid"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+              >
+                About Squid
+              </a>
+            </li>
+            <li>
+              <a
+                href="#tokenomics"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+              >
+                Tokenomics
+              </a>
+            </li>
+            <li>
+              <a
+                href="#utility"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+              >
+                Utility
+              </a>
+            </li>
             {/* <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">SWAP</li> */}
-            <li ><a href="#partners" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Partners</a></li>
-            <li ><a href="#roadmap" className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">Roadmap</a></li>
+            <li>
+              <a
+                href="#partners"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+              >
+                Partners
+              </a>
+            </li>
+            <li>
+              <a
+                href="#roadmap"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+              >
+                Roadmap
+              </a>
+            </li>
             {/* <li className="m-r-1 m-t-1 c-p">
               <Dropdown>
                 <Dropdown.Toggle
@@ -195,38 +257,36 @@ function Navbar() {
           </ul>
           <ul className="l-s-t-n d-f j-c-s-b m-t-2">
             <li>
-              <FaTelegramPlane className="f-s-2" />
+              <FaTelegramPlane className="f-s-1_5 c-b" />
             </li>
             <li>
               {" "}
-              <BsTwitter className="f-s-2"/>
+              <BsTwitter className="f-s-1_5 c-b" />
             </li>
             <li>
               {" "}
-              <BsYoutube className="f-s-2"/>
+              <BsYoutube className="f-s-1_5 c-b" />
             </li>
-         
           </ul>
           <ul className="d-f j-c-s-b l-s-t-n m-t-3">
-          <li>
-          <button
+            <li>
+              <button
                 // variant="primary"
                 onClick={handleShow2}
                 className=" button-pri"
               >
                 SWAP $DOSA
               </button>
-          </li>
-          <li>
-          <button
+            </li>
+            <li>
+              <button
                 // variant="primary"
                 onClick={handleShow2}
                 className=" button-pri"
               >
                 CONNECT
               </button>
-          </li>
-
+            </li>
           </ul>
         </Offcanvas.Body>
       </Offcanvas>

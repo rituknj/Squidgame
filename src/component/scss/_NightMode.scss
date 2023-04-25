@@ -1,13 +1,11 @@
-#7ba2e5
-
-.dark-theme {
-    --background-color: #7ba2e5;
-    --color: #D7195F;
+#7ba2e5 .dark-theme {
+  --background-color: #7ba2e5;
+  --color: #d7195f;
 }
 
 .light-theme {
-    --background-color: #7ba2e5;
-    --color: #D7195F;
+  --background-color: #7ba2e5;
+  --color: #d7195f;
 }
 
 html,
@@ -16,13 +14,12 @@ input,
 select,
 #dropdown,
 .modal-content,
-
-.dropdown-menu.show{
-    // background-color: var(--background-color) !important;
-    color: var(--color) !important;
-    fill: var(--color) !important;
-    border-color: var(--color) !important;
+.dropdown-menu.show {
+  // background-color: var(--background-color) !important;
+  color: var(--color) !important;
+  fill: var(--color) !important;
+  border-color: var(--color) !important;
 }
-.pa-1.offcanvas.offcanvas-start.show{
-    background: #7ba2e5 !important;
+.pa-1.offcanvas.offcanvas-start.show {
+  background: #ffeaea !important;
 }
