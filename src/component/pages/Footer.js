@@ -14,9 +14,9 @@ export default function Footer() {
               <div className="col-log-4 col-md-4 col-sm-12 col-12">
                 <div className="row">
                   <div className="footer__icons c-w">
-                    <FaTelegramPlane className="c-w f-s-1_5"/>
-                    <BsTwitter className="c-w f-s-1_5"/>
-                    <BsYoutube className="c-w f-s-1_5"/>
+                    <FaTelegramPlane className="c-w f-s-1_5 c-p"/>
+                    <BsTwitter className="c-w f-s-1_5 c-p"/>
+                    <BsYoutube className="c-w f-s-1_5 c-p"/>
                     {/* <BsGithub />
                     <SiGitbook />
                     <FaTiktok /> */}
@@ -24,26 +24,26 @@ export default function Footer() {
                   <div className="row m-l-1">
                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                       <div className="m-t-2 l-h-2 f-s-1_2 f-w-500 c-w">
-                        <p>Buy SquidGME</p>
-                        <p>News</p>
-                        <p>Pedigree</p>
+                        <p className="c-p">Buy SquidGME</p>
+                        <p className="c-p">News</p>
+                        {/* <p>Pedigree</p> */}
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                    {/* <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                       <div className="m-t-2 l-h-2 f-s-1_2 f-w-500 c-w">
                         <p>Nfts</p>
                         <p>SquidGME</p>
                         <p>Opensea</p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
               <div className="col-log-4 col-md-4 col-sm-12 col-12"></div>
               <div className="col-log-4 col-md-4 col-sm-12 col-12">
-                <div className="">
+                {/* <div className="">
                   <img src={footerlogo} alt="" className="w-75"/>
-                </div>
+                </div> */}
                 <div className="m-t-1 m-b-4 c-w">
                 <span>© 2023, Squid., All rights reserved.</span>
                 </div>

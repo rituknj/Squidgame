@@ -189,14 +189,14 @@ function Navbar() {
               </a>
             </div>
           </Offcanvas.Title>
-          <ImCross onClick={handleClose} color="black" />
+          <ImCross onClick={handleClose} color="black" className="c-b" />
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
             <li>
               <a
                 href="#aboutsquid"
-                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c c-p"
               >
                 About Squid
               </a>
@@ -204,7 +204,7 @@ function Navbar() {
             <li>
               <a
                 href="#tokenomics"
-                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c c-p"
               >
                 Tokenomics
               </a>
@@ -212,7 +212,7 @@ function Navbar() {
             <li>
               <a
                 href="#utility"
-                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c c-p"
               >
                 Utility
               </a>
@@ -221,7 +221,7 @@ function Navbar() {
             <li>
               <a
                 href="#partners"
-                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c c-p"
               >
                 Partners
               </a>
@@ -229,7 +229,7 @@ function Navbar() {
             <li>
               <a
                 href="#roadmap"
-                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c"
+                className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c c-p"
               >
                 Roadmap
               </a>
@@ -257,15 +257,15 @@ function Navbar() {
           </ul>
           <ul className="l-s-t-n d-f j-c-s-b m-t-2">
             <li>
-              <FaTelegramPlane className="f-s-1_5 c-b" />
+              <FaTelegramPlane className="f-s-1_5 c-b c-p" />
             </li>
             <li>
               {" "}
-              <BsTwitter className="f-s-1_5 c-b" />
+              <BsTwitter className="f-s-1_5 c-b c-p" />
             </li>
             <li>
               {" "}
-              <BsYoutube className="f-s-1_5 c-b" />
+              <BsYoutube className="f-s-1_5 c-b c-p" />
             </li>
           </ul>
           <ul className="d-f j-c-s-b l-s-t-n m-t-3">
@@ -273,7 +273,7 @@ function Navbar() {
               <button
                 // variant="primary"
                 onClick={handleShow2}
-                className=" button-pri"
+                className=" button-pri c-p"
               >
                 SWAP $DOSA
               </button>
@@ -282,7 +282,7 @@ function Navbar() {
               <button
                 // variant="primary"
                 onClick={handleShow2}
-                className=" button-pri"
+                className=" button-pri c-p"
               >
                 CONNECT
               </button>

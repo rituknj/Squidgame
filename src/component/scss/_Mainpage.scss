@@ -275,6 +275,7 @@
   padding: 2rem;
   border: 2px solid white;
   border-radius: 10px;
+  height: 120px;
 }
 .contract-audit {
   color: #d7195f;
@@ -305,5 +306,8 @@
 @media screen and (max-width: 767px) {
   .listing-box {
     margin-bottom: 1rem;
+  }
+  .squidgme-img{
+    text-align: center !important;
   }
 }

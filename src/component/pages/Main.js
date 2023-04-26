@@ -285,6 +285,34 @@ export default function Main() {
             trending within the crypto industry to make SquidGME the next
             blue-chip cryptocurrency!
           </p>
+          {/* <div className="m-t-2 f-s-1_5 f-w-600 c-b contract-audit">
+            Contract Audit + Renounced Ownership + Pinksale Antibot:
+          </div>
+          <div className="m-t-1 f-w-600 c-b">
+            <p className="c-b">
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b " />
+              Contract Audited by Cyberscope
+            </p>
+            <p className="c-b">
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b" />
+              Antibot: Extensive launch protection-protocols by Pinksale
+              Antibot.
+            </p>
+            <p className="c-b">
+              <AiOutlineAim className="m-r-0_5 f-s-1_3 c-b" />
+              Renounced Contract: Token Contract to be Renounced on Launch,
+              officially setting the token and its’ functions unchangeable.
+              (LBank, Bitmart, Mexc, Gate io, CEX Addresses Whitelisted before
+              Renounce)
+            </p>
+          </div> */}
+        </div>
+      </section>
+      <section className="p-t-9 p-b-7">
+        <div className="container-kws-new">
+          <h1 className="f-s-3 c-b">
+            Squid<span className="f-w-900">GME</span>
+          </h1>
           <div className="m-t-2 f-s-1_5 f-w-600 c-b contract-audit">
             Contract Audit + Renounced Ownership + Pinksale Antibot:
           </div>
@@ -306,31 +334,10 @@ export default function Main() {
               Renounce)
             </p>
           </div>
-        </div>
-      </section>
-      <section className="p-t-9 p-b-7">
-        <div className="container-kws-new">
-          <h1 className="f-s-3 c-b">
-            Squid<span className="f-w-900">GME</span>
-          </h1>
-          <h3 className="f-w-700 f-co fo-na c-b">
-            DEMOCRATIZING GREEN CANDLES
-          </h3>
-          <p className="f-s-1 f-w-500 pass__para-pass c-b">
-            The SquidGME is a DeFi wallet-integrated tool that entitles Dosa
-            Fuses to vote on where the SquidGME Wallet is spent.
-          </p>
-          <br />
-          <p className="f-s-1 f-w-500 pass__para-pass c-b">
-            The GME Wallet gradually builds for a preset number of days from a
-            tax on transaction volume as the $Dosa token is traded. Each
-            SquidGME has 4 Contender projects that are vying to receive the
-            SquidGME buy.
-          </p>
           <div className="row p-t-4">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div>
-                <img src={dosabombimg} alt="" className="max-w-75" />
+              <div className="squidgme-img">
+                <img src={dosabombimg} alt="" className="max-w-75 " />
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -351,6 +358,11 @@ export default function Main() {
                   “Squid Chiefs” are the top 100 wallets that hold the most $GME
                   at the time of the Dosa GME’s completion. Each Squid Chief is
                   entitled to an equal share of the GME’s buy.
+                </p><br/>
+                <p className="f-s-1 f-w-500 pass__para-pass c-b">
+                  Join our Telegram to use our Ai Voice Bot and to check the
+                  current available characters on our list. Our Bot has an
+                  easy-access interface that offers unlimited free usage!
                 </p>
                 <div className="d-f j-c-s-b m-t-2"></div>
               </div>
@@ -386,7 +398,7 @@ export default function Main() {
           {/* <img src={nftbackimg} alt="" className="w-100" /> */}
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="pass-bo p-t-7 p-b-7">
           <div className="container-kws-new">
             <div className="row">
@@ -418,12 +430,12 @@ export default function Main() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                <img src={dosanftimg} alt="" className="max-w-100" />
+                <img src={dosanftimg} alt="" className="max-w-100 " />
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section className="p-t-7">
         <div className="container-kws-new">
           <div className="row">
