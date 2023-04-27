@@ -69,7 +69,7 @@ function Navbar() {
         </div>
         <div className="p-t-1">
           <ul className="l-s-t-n d-f a-i-c list-nav">
-            {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">DOSA BOMB </li> */}
+            {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SQUID BOMB </li> */}
             <li>
               <a
                 href="#aboutsquid"
@@ -87,11 +87,11 @@ function Navbar() {
               </a>
             </li>
             {/* <li className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">SWAP</li> */}
-            <li>
+            {/* <li>
               <a href="#utility" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">
                 Utility
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#partners" className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b">
                 Partners
@@ -215,14 +215,14 @@ function Navbar() {
                 Tokenomics
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#utility"
                 className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c c-p"
               >
                 Utility
               </a>
-            </li>
+            </li> */}
             {/* <li className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c">SWAP</li> */}
             <li>
               <a
@@ -285,7 +285,7 @@ function Navbar() {
                 onClick={handleShow2}
                 className="light c-p"
               >
-                SWAP $DOSA
+                SWAP $SQUID
               </button>
             </li>
             <li>

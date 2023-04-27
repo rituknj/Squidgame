@@ -328,7 +328,7 @@ export default function Main() {
                 <br />
                 <p className="f-s-1 f-w-500 pass__para-pass c-b">
                   “Squid Chiefs” are the top 100 wallets that hold the most $GME
-                  at the time of the Dosa GME’s completion. Each Squid Chief is
+                  at the time of the Squid GME’s completion. Each Squid Chief is
                   entitled to an equal share of the GME’s buy.
                 </p>
                 <br />
