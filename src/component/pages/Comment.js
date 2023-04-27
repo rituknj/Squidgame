@@ -112,3 +112,129 @@
       </section> */}
 
        {/* <div className="carasoul "></div> */}
+
+        {/* <section className="p-t-7">
+        <div className="container-kws-new">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+              <div className="">
+                <div>
+                  <h1 className="chainlink__head c-b ">
+                    <span className="m-r-0_5">
+                      <img src={chainlogo} alt="" className="max-w-100" />
+                    </span>
+                    CHAINLINK
+                  </h1>
+                  <h1 className="f-w-900 f-s-3 c-b">INTEGRATION</h1>
+                </div>
+                <div className="m-t-1_5">
+                  <p className="f-s-1 f-w-500 c-b">
+                    For each Squid NFT minting request, Chainlink VRF generates
+                    one or more random values and cryptographic proof of how
+                    those values were determined.
+                  </p>
+                  <br />
+                  <p className="f-s-1 f-w-500 c-b">
+                    The proof is published and verified on-chain before any
+                    consuming applications can use it.
+                  </p>
+                  <br />
+                  <p className="f-s-1 f-w-500 c-b">
+                    This process ensures that results cannot be tampered with or
+                    manipulated by any single entity including oracle operators,
+                    miners, users, scripts or smart contract developers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+              <div>
+                <img src={chainlogo2} alt="" className="max-w-100" />
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </section> */}
+
+
+
+      {/* <section>
+        <div className="pass-bo p-t-7 p-b-7">
+          <div className="container-kws-new">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="">
+                  <h4 className="f-s-2 c-b">
+                    Contract Audit + Renounced Ownership + Pinksale Antibot{" "}
+                  </h4>
+                  <div>
+                    <p className="f-s-1 f-w-500 c-b">
+                      <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+                      Contract Audited by Cyberscope
+                    </p>
+                    <br />
+                    <p className="f-s-1 f-w-500 c-b">
+                      <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+                      Antibot: Extensive launch protection-protocols by Pinksale
+                      Antibot.
+                    </p>
+                    <br />
+                    <p className="f-s-1 f-w-500 c-b">
+                      <AiOutlineAim className="m-r-0_5 f-s-1_3 " />
+                      Renounced Contract: Token Contract to be Renounced on
+                      Launch, officially setting the token and its’ functions
+                      unchangeable. (LBank, Bitmart, Mexc, Gate io, CEX
+                      Addresses Whitelisted before Renounce)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <img src={dosanftimg} alt="" className="max-w-100 " />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+         {/* <section className="pass-bo">
+        <div className="container-kws-new">
+          <div className="row p-t-9 p-b-7">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+              <div className="pass__pass-info m-t-6">
+                <h1 className="f-s-3 c-b">
+                  <span className="pass__tit-1 c-b">BECOME A</span>
+                  <br />
+                  <span className="f-w-900 c-b">SquidGME</span>
+                  <br />
+                  <span className="c-b">CONTENDER</span>
+                </h1>
+                <p className="pass__para-pass f-s-1 f-w-500 c-b">
+                  Does your project deserve attention?
+                  <br />
+                  Does your project want a big buy pumped into the chart?
+                  <br />
+                  Is your community strong enough to fight for it?
+                  <br />
+                  <br />
+                  Well here's your chance, apply to be a contender in the Dosa
+                  Bomb today!
+                </p>
+                
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+              <div className="pass__pass-img">
+                <img src={passimg} alt="" className="max-w-100" />
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </section> */}
+
+
+       {/* <section className="mint m-t-7">
+
+</section>  */}

@@ -1,6 +1,10 @@
 .footer{
     &__icons{
         display: flex;
-    justify-content: space-around;
+    // justify-content: space-evenly;
+    float: right !important;
     }
+}
+.tele:hover{
+    color: #d7195f !important;
 }

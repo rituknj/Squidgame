@@ -6,7 +6,7 @@ export default function Roadmap() {
 
 <div class="container-fluid blue-bg" id='roadmap'>
   <div class="container">
-    <h2 class="pb-3 pt-3 t-a-c">Roadmap</h2>
+    <h1 class="p-b-3 p-t-7 t-a-c">Squid<span className='f-w-900'>GME</span> Roadmap</h1>
     {/* <!--first section--> */}
     <div class="row align-items-center how-it-works">
       <div class="col-2 text-center bottom">

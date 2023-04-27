@@ -4,7 +4,8 @@ import { ImCross } from "react-icons/im";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Dropdown from "react-bootstrap/Dropdown";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineGlobal, AiOutlineMail, AiOutlineMenu, AiTwotoneMail } from "react-icons/ai";
+import {MdMarkEmailRead} from "react-icons/md"
 import { FaTelegramPlane, FaTiktok } from "react-icons/fa";
 import { BsTwitter, BsYoutube, BsGithub } from "react-icons/bs";
 import { SiGitbook } from "react-icons/si";
@@ -127,14 +128,19 @@ function Navbar() {
         </div>
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
-            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b">
+          <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b">
+            <a href="https://www.squidgme.com/" target="_blank">
+              <AiOutlineGlobal  className="c-b icons-nav"/>
+            </a>
+          </li>
+            <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b"><a href="https://t.me/SquidGMEnews" target="_blank">
               <FaTelegramPlane className="c-b icons-nav" />
-            </li>
+        </a>    </li>
             <li className="m-l-2 c-p  f-s-1_5 m-q-b-d-n c-b">
-              <BsTwitter className="c-b icons-nav" />
+              <a href="https://twitter.com/SquidGMECoin" target="_blank"><BsTwitter className="c-b icons-nav" /></a>
             </li>
-            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n c-b">
-              <BsYoutube className="c-b icons-nav" />
+            <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n c-b" >
+              <a href="mailto:contact@squidgme.com" target="_blank"><MdMarkEmailRead className="c-b icons-nav" /></a>
             </li>
             {/* <li className="m-l-2 c-p f-s-1_5  m-q-b-d-n">
               <BsGithub />
@@ -146,7 +152,7 @@ function Navbar() {
               <FaTiktok />
             </li> */}
             <li className="m-l-2 c-p m-q-a-d-n_600 ">
-              <button className="button-pri"> $SquidGME</button>
+              <button className="light"> $SquidGME</button>
             </li>
             {/* <li className="m-l-2 c-pq ">
               <span className="" onClick={() => toggleTheme()}>
@@ -159,7 +165,7 @@ function Navbar() {
               <button
                 // variant="primary"
                 onClick={handleShow2}
-                className=" button-pri"
+                className="light"
               >
                 CONNECT
               </button>
@@ -256,16 +262,20 @@ function Navbar() {
             </li> */}
           </ul>
           <ul className="l-s-t-n d-f j-c-s-b m-t-2">
+          <li>
+              <a href="https://www.squidgme.com/" target="_blank"><AiOutlineGlobal className="f-s-1_5 c-b c-p" /></a>
+            </li>
+           
             <li>
-              <FaTelegramPlane className="f-s-1_5 c-b c-p" />
+              <a href="https://t.me/SquidGMEnews" target="_blank"><FaTelegramPlane className="f-s-1_5 c-b c-p" /></a>
             </li>
             <li>
               {" "}
-              <BsTwitter className="f-s-1_5 c-b c-p" />
+              <a href="https://twitter.com/SquidGMECoin" target="_blank"><BsTwitter className="f-s-1_5 c-b c-p" /></a>
             </li>
             <li>
               {" "}
-              <BsYoutube className="f-s-1_5 c-b c-p" />
+              <a  href="contact@squidgme.com" target="_blank"><MdMarkEmailRead className="f-s-1_5 c-b c-p" /></a>
             </li>
           </ul>
           <ul className="d-f j-c-s-b l-s-t-n m-t-3">
@@ -273,7 +283,7 @@ function Navbar() {
               <button
                 // variant="primary"
                 onClick={handleShow2}
-                className=" button-pri c-p"
+                className="light c-p"
               >
                 SWAP $DOSA
               </button>
@@ -282,7 +292,7 @@ function Navbar() {
               <button
                 // variant="primary"
                 onClick={handleShow2}
-                className=" button-pri c-p"
+                className="light c-p"
               >
                 CONNECT
               </button>
