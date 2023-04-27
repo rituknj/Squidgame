@@ -47,7 +47,7 @@ export default function Main() {
           >
             <div className="sec-col">
               <div>
-                <img src={logoicon} alt="" className="max-w-100" />
+                <img src={logoicon} alt="" className="max-w-100 " />
               </div>
               <div>
                 <h1 className="f-s-2 c-b f-w-900 m-t-1_5 m-b-1_5 mobile-h1">
@@ -133,7 +133,7 @@ export default function Main() {
             </div>
           </Grid>
           <Grid item sm={12} xs={12} md={12} lg={6} xl={6}>
-            <div className="main-img p-t-7 t-a-c">
+            <div className="main-img  t-a-c">
               <img src={mainimage} alt="" className="max-w-50" />
             </div>
           </Grid>
@@ -148,7 +148,7 @@ export default function Main() {
           >
             <div className="sec-col">
               <div>
-                <img src={logoicon} alt="" className="m-t-5" />
+                <img src={logoicon} alt="" className="m-t-5 " />
               </div>
               <div>
                 <h1 className="f-s-2 c-b f-w-900 m-t-3 m-b-1_5 ">
@@ -290,11 +290,11 @@ export default function Main() {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="p-t-4 m-l-2">
+              <div className="p-t-4 m-l-2 composition">
                 <img
                   src={squidwhatimg}
                   alt=""
-                  className="max-w-100 b-r-10 b-r-10"
+                  className="max-w-100 b-r-10 b-r-10 composition__photo composition-img"
                 />
               </div>
             </div>
@@ -308,8 +308,8 @@ export default function Main() {
           </div>
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="squidgme-img p-t-4">
-                <img src={dosabombimg} alt="" className="max-w-75 b-r-10" />
+              <div className="squidgme-img p-t-4 ">
+                <img src={dosabombimg} alt="" className="max-w-75 b-r-10 composition__photo composition-img" />
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -428,7 +428,7 @@ export default function Main() {
         </div>
       </section>
       <section id="partners">
-        <div className=" p-t-7 p-b-7 pass">
+        <div className=" p-t-5 p-b-4 pass">
         <div className="container-kws-new">
         <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -442,14 +442,14 @@ export default function Main() {
               </div>
               <div >
                 <div >
-                  <img src={dexviewpartners} alt="" className="w-75 m-t-2_5" />
+                  <img src={dexviewpartners} alt="" className="w-75 " />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-        <h1 className="c-w">Listings</h1>
+        <h1 className="c-w listing">Listings</h1>
             <div className="row m-t-2">
               <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                 <div className="">

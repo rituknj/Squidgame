@@ -313,4 +313,31 @@
   .squidgme-img{
     text-align: center !important;
   }
+  .listing{
+    margin-top: 5rem !important;
+  }
+}
+
+
+// IMAGE ANIMATION
+.composition{
+
+}
+.composition-img{
+  
+  transform: scale(1.05) translateY(-.3rem);
+  box-shadow: 0 2.5rem 4rem rgba(#000, .5);
+  z-index: 20;
+}
+.composition-img:hover, .composition-img__photo:not(:hover){
+  transform: scale(.95);
+}
+.composition__photo{
+  transition: all .2s;
+        outline-offset: 1rem;
+        box-shadow: 0 1.5rem 4rem rgba(#000, .4);
+}
+
+.composition-img:hover{
+  outline: .5rem solid #d7195f;
 }

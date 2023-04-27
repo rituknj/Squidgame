@@ -98,3 +98,26 @@ $font-stack: 'Lato', sans-serif;
     top: calc(50% - 3px);
   }
 }
+
+.circle-1{
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: $color;
+  color: $bg;
+  max-height: 50px;
+  // z-index: 2;
+max-width: 100px;
+}
+// Responsive
+@media screen and (min-width:768px) {
+  .circle-1{
+    display: none !important;
+  }
+ 
+}
+@media screen and (max-width:768px) {
+  .circle{
+display: none;
+  }
+}

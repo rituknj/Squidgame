@@ -9,10 +9,11 @@ export default function Roadmap() {
     <h1 class="p-b-3 p-t-7 t-a-c">Squid<span className='f-w-900'>GME</span> Roadmap</h1>
     {/* <!--first section--> */}
     <div class="row align-items-center how-it-works">
-      <div class="col-2 text-center bottom">
+      <div class="col-2  text-center bottom">
         <div class="circle">Phase-1</div>
       </div>
       <div class="col-6">
+      <div className='circle-1 m-b-2'>Phase-1</div>
         <h2>Development</h2>
         <p>Custom Bot Launch</p>
         <p>Ai Voice Bot Beta Launch</p>
@@ -48,6 +49,7 @@ export default function Roadmap() {
     {/* <!--second section--> */}
     <div class="row align-items-center justify-content-end how-it-works">
       <div class="col-6 text-right">
+      <div className='circle-1 m-b-2'>Phase-2</div>
         <h2> Launch</h2>
         <p>Ai Voice Bot Updates & Development</p>
         <p>Audit Certification</p>
@@ -85,6 +87,7 @@ export default function Roadmap() {
         <div class="circle">Phase-3</div>
       </div>
       <div class="col-6">
+      <div className='circle-1 m-b-2'>Phase-3</div>
         <h2>Expansion</h2>
         <p>Ai Voice Bot Updates & Development</p>
         <p>Youtube Reviews</p>
