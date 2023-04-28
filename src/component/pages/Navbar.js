@@ -14,7 +14,7 @@ import meta from "../Image/meta.png";
 import walletconnect from "../Svg/walletconnect.svg";
 import "animate.css";
 
-import logo from "../Image/logosqd.png";
+import logo from "../Image/logosqdtt.png";
 
 function Navbar() {
   const [show, setShow] = useState(false);

@@ -61,22 +61,7 @@ export default function Main() {
               </p>
 
               <div className="row p-t-4 p-b-2">
-                <div className="col-lg-4 col-md-4 col-sm-4 col-12">
-                  <button onClick={handleShow} className="light">
-                    <BsPlayCircleFill className="f-s-3 m-r-0_5" />
-                    PLAY VIDEO
-                  </button>
-
-                  <Modal show={show} onHide={handleClose} animation={false}>
-                    <Modal.Header>
-                      <RxCross2 className="f-s-2 c-p" onClick={handleClose} />
-                      {/* <Modal.Title>Modal heading</Modal.Title> */}
-                    </Modal.Header>
-                    <Modal.Body>
-                      <iframe width="100%" height="315" src={video1}></iframe>
-                    </Modal.Body>
-                  </Modal>
-                </div>
+           
 
                 <div className="col-lg-4 col-md-4 col-sm-4 col-12">
                   <div className="pinksalebu">
@@ -134,7 +119,7 @@ export default function Main() {
           </Grid>
           <Grid item sm={12} xs={12} md={12} lg={6} xl={6}>
             <div className="main-img  t-a-c">
-              <img src={mainimage} alt="" className="max-w-50" />
+              <img src={mainimage} alt="" className="max-w-75" />
             </div>
           </Grid>
           <Grid
@@ -160,36 +145,7 @@ export default function Main() {
                 Project creating open-access to AI voice modules using speech
                 synthesis artificial intelligence and deep learning.
               </p>
-              <div className="p-t-2">
-                {/* <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                  <button className="button-pri">PEDIGREE</button>
-                </div> */}
-                {/* <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                  <button className="button-pri">DOSA BOMB</button>
-                </div> */}
-                <button onClick={handleShow} className="light play-bu ">
-                  <BsPlayCircleFill className="f-s-3 m-r-0_5" />
-                  PLAY VIDEO
-                </button>
-
-                <Modal show={show} onHide={handleClose} animation={false}>
-                  <Modal.Header>
-                    <RxCross2 className="f-s-2 c-p" onClick={handleClose} />
-                    {/* <Modal.Title>Modal heading</Modal.Title> */}
-                  </Modal.Header>
-                  <Modal.Body>
-                    <iframe width="100%" height="315" src={video1}></iframe>
-                  </Modal.Body>
-                </Modal>
-                {/* <div className="row m-t-1">
-                  <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <button className="button-pri">BUY DOSA</button>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <button className="button-pri">NEWS</button>
-                  </div>
-                </div> */}
-              </div>
+            
               <div className="row m-t-1">
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                   {/* <button className="button-pri-no">PinkSale</button> */}
