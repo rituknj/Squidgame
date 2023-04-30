@@ -51,7 +51,7 @@ export default function Main() {
               </div>
               <div>
                 <h1 className="f-s-2 c-b f-w-900 m-t-1_5 m-b-1_5 mobile-h1">
-                  YOUR FAVORITE COIN'S <br /> FAVORITE COIN
+                  Voice AI Technology 
                 </h1>
               </div>
               <p className="f-s-1_5 c-b f-w-500 l-h-24 mobile-pa">
@@ -137,7 +137,7 @@ export default function Main() {
               </div>
               <div>
                 <h1 className="f-s-2 c-b f-w-900 m-t-3 m-b-1_5 ">
-                  YOUR FAVORITE COIN'S <br /> FAVORITE COIN
+                  Voice AI Technology 
                 </h1>
               </div>
               <p className="f-s-1_5 c-b f-w-500 l-h-24">
@@ -270,24 +270,8 @@ export default function Main() {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="p-t-1">
-                <h3 className="f-w-700 f-co fo-na c-b">HOW IT WORKS</h3>
-                <p className="f-s-1 f-w-500 pass__para-pass c-b">
-                  Whichever Contender has the most votes when the GME Round
-                  closes will receive the full amount of the bomb, in the form
-                  of BNB swapped for their token.
-                </p>
-                <br />
-                <p className="f-s-1 f-w-500 pass__para-pass c-b">
-                  This buy is then claimable by the Squid Chiefs at the time of
-                  the buy.
-                </p>
-                <br />
-                <p className="f-s-1 f-w-500 pass__para-pass c-b">
-                  “Squid Chiefs” are the top 100 wallets that hold the most $GME
-                  at the time of the Squid GME’s completion. Each Squid Chief is
-                  entitled to an equal share of the GME’s buy.
-                </p>
-                <br />
+                <h3 className="f-w-700 f-co fo-na c-b how-section">HOW IT WORKS</h3>
+               
                 <p className="f-s-1 f-w-500 pass__para-pass c-b">
                   Join our Telegram to use our Ai Voice Bot and to check the
                   current available characters on our list. Our Bot has an
@@ -320,20 +304,15 @@ export default function Main() {
         </div>
       </section>
 
-      <section className="p-t-7" id="utility">
-        <div className="container-kws-new "></div>
-        <div className="">
-          {/* <img src={nftbackimg} alt="" className="w-100" /> */}
-        </div>
-      </section>
+     
 
       <section id="tokenomics">
         <div className="pass-bo p-t-4 p-b-4">
           <div className="container-kws-new ">
-            <h1 className="c-b t-a-c m-b-2">
+            <h1 className="c-b t-a-c m-b-2 toko">
               Squid<span className="f-w-900">GME</span> Tokenomics
             </h1>
-            <p className="m-b-2 f-w-500 c-b f-s-1_2 t-a-c">
+            <p className="m-b-2 f-w-500 c-b f-s-1_2 t-a-c toko">
               Low supply with only 100,000 tokens to ever be created and over
               50% initially burned. Mathematically calculated initial liquidity
               pool to diluted market cap ratio for breeze and solid movement. No

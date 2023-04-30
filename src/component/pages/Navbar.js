@@ -152,7 +152,7 @@ function Navbar() {
               <FaTiktok />
             </li> */}
             <li className="m-l-2 c-p m-q-a-d-n_600 ">
-              <button className="light"> $SquidGME</button>
+              <button className="light"> TRADE </button>
             </li>
             {/* <li className="m-l-2 c-pq ">
               <span className="" onClick={() => toggleTheme()}>
@@ -160,16 +160,7 @@ function Navbar() {
               </span>
             </li> */}
 
-            <li className="m-l-2  m-q-a-d-n_600">
-              {" "}
-              <button
-                // variant="primary"
-                onClick={handleShow2}
-                className="light"
-              >
-                CONNECT
-              </button>
-            </li>
+           
             <li className="m-l-2 c-p   m-q-a-d-n ">
               {" "}
               <Button
@@ -285,18 +276,10 @@ function Navbar() {
                 onClick={handleShow2}
                 className="light c-p"
               >
-                SWAP $SQUID
+                TRADE
               </button>
             </li>
-            <li>
-              <button
-                // variant="primary"
-                onClick={handleShow2}
-                className="light c-p"
-              >
-                CONNECT
-              </button>
-            </li>
+           
           </ul>
         </Offcanvas.Body>
       </Offcanvas>

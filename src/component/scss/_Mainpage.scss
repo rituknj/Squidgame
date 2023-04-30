@@ -228,7 +228,7 @@
   &__head-2 {
     font: normal normal 700 24px/32px MontserratBold;
     color: #1e3469;
-    margin: 20px 0 28px;
+    margin: 28px 0 20px;
   }
   &__backimg {
     display: flex;
@@ -315,6 +315,12 @@
   }
   .listing{
     margin-top: 5rem !important;
+  }
+  .how-section{
+    margin-top: 2rem !important;
+  }
+  .toko{
+    text-align: left !important;
   }
 }
 

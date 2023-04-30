@@ -238,3 +238,23 @@
        {/* <section className="mint m-t-7">
 
 </section>  */}
+
+
+//  HOW IT WORKS SECTION
+// <p className="f-s-1 f-w-500 pass__para-pass c-b">
+// Whichever Contender has the most votes when the GME Round
+// closes will receive the full amount of the bomb, in the form
+// of BNB swapped for their token.
+// </p>
+// <br />
+// <p className="f-s-1 f-w-500 pass__para-pass c-b">
+// This buy is then claimable by the Squid Chiefs at the time of
+// the buy.
+// </p>
+// <br />
+// <p className="f-s-1 f-w-500 pass__para-pass c-b">
+// “Squid Chiefs” are the top 100 wallets that hold the most $GME
+// at the time of the Squid GME’s completion. Each Squid Chief is
+// entitled to an equal share of the GME’s buy.
+// </p>
+// <br />
