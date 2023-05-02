@@ -184,10 +184,10 @@ export default function Main() {
         </Grid>
       </div>
 
-      <section className="mint m-t-7"></section>
+ 
 
       <section className="pass-bo" id="aboutsquid">
-        <div className="container-kws-new p-t-9">
+        <div className="container-kws-new p-t-7">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div>
