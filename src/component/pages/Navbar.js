@@ -75,7 +75,7 @@ function Navbar() {
                 href="#aboutsquid"
                 className="m-r-1_5 c-p   m-q-b-d-n fo-na c-b"
               >
-                About Squid{" "}
+              SquidGME{" "}
               </a>
             </li>
             <li>
@@ -195,7 +195,7 @@ function Navbar() {
                 href="#aboutsquid"
                 className="m-r-1 m-t-2 c-p fo-na c-b f-s-1_5 t-a-c c-p"
               >
-                About Squid
+              SquidGME
               </a>
             </li>
             <li>
